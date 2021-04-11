@@ -41,4 +41,8 @@ activate two auth
 nc-format your 3 HDDs (one by one)
 follow wizard
 add backup & snapshot
+
+configure cooling fan in python.
+add in your bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/main.log 2>&1 & echo $! > RGB.pid
+
 add apps and enjoy!
