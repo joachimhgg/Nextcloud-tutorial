@@ -18,6 +18,7 @@ https://raspberrytips.com/install-nextcloud-raspberry-pi/
 
 enable SSH
 ifconfig
+nc-webui
 
 then in SSH: 
 sudo apt update
@@ -26,7 +27,6 @@ sudo ncp-config
 Activate:
 
 nc-prettyURL
-nc-webui
 fail2ban
 nc-automount
 
