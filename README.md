@@ -15,29 +15,20 @@ Total ~ 300€ (HDD included)
 
 follow this tutorial: https://raspberrytips.com/install-nextcloud-raspberry-pi/
 
-enable SSH
-ifconfig
-nc-webui
-
-then in SSH: 
-
-sudo apt update
-sudo apt upgrade
-sudo ncp-config
-
 Activate:
 
 nc-prettyURL
 fail2ban
 nc-automount
 
-https://tailscale.com/download/linux/rpi
+follow this tutorial: https://tailscale.com/download/linux/rpi
 
 note: reboot before sudo tailscale up
 
 nc-trusted-domains: the nextcloudpi machine's IP (starting with 100.) and the Search Domains with magic DNS (something like nextcloudpi.your.email.address.beta.tailscale.net) 
 
 change your generated password with nc-passwd for nextcloudpi panel and in setting/security on nextcloud
+
 activate two auth 
 
 nc-format your 3 HDDs (one by one)
@@ -48,6 +39,6 @@ add backup & snapshot
 
 configure cooling fan in python.
 
-add in your bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/main.log 2>&1 & echo $! > RGB.pid
+add in your .bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/main.log 2>&1 & echo $! > RGB.pid
 
 add apps and enjoy!
