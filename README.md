@@ -38,6 +38,10 @@ follow wizard
 add backup & snapshot
 
 configure cooling fan in python.
+http://www.yahboom.net/study/RGB_Cooling_HAT
+
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
 
 add in your .bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/main.log 2>&1 & echo $! > RGB.pid
 
