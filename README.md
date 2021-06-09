@@ -49,3 +49,5 @@ sudo apt-get install python3-dev python3-rpi.gpio
 add in your .bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/main.log 2>&1 & echo $! > RGB.pid
 
 add apps and enjoy!
+
+some tips: https://www.linuxbabe.com/ubuntu/install-nextcloud-ubuntu-20-04-apache-lamp-stack
