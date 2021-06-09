@@ -43,6 +43,7 @@ http://www.yahboom.net/study/RGB_Cooling_HAT
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 sudo apt-get install python3-smbus
+python3 -m pip install --upgrade Pillow
 
 add in your .bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/main.log 2>&1 & echo $! > RGB.pid
 
