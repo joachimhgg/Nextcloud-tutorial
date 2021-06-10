@@ -1,6 +1,6 @@
 # Nextcloud-tutorial
 
-Fast tutorial on my hardware choices and how I setup my cloud. Contact me for more information.
+Fast recap on my hardware choices and how I setup my cloud.
 
 ## Hardware
 * Raspberry pi 4 4gb (for USB3.0)
