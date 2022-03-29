@@ -51,3 +51,10 @@ add in your .bashrc: nohup python -u RGB_Cooling.py run --username RGB > /logs/m
 add apps and enjoy!
 
 some tips: https://www.linuxbabe.com/ubuntu/install-nextcloud-ubuntu-20-04-apache-lamp-stack
+
+## Android Support
+
+I am using Nextcloud, Tailscale, Notes, and Ncphotos apps.
+To enable video previews one the latter: https://gitlab.com/nkming2/nc-photos/-/wikis/help/video-previews
+
+
